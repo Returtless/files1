@@ -1,12 +1,12 @@
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/src была создана
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/src/main была создана
-Файл /Users/returtless/IdeaProjects/files1/Games/src/main/Main.java был создан
-Файл /Users/returtless/IdeaProjects/files1/Games/src/main/Utils.java был создан
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/src/test была создана
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/res была создана
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/res/drawables была создана
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/res/vectors была создана
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/res/icons была создана
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/savegames была создана
-Папка по пути /Users/returtless/IdeaProjects/files1/Games/temp была создана
-Файл /Users/returtless/IdeaProjects/files1/Games/temp/temp.txt был создан
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/src уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/src/main уже существует
+Файл /Users/returtless/IdeaProjects/files1/Games/src/main/Main.java уже существует
+Файл /Users/returtless/IdeaProjects/files1/Games/src/main/Utils.java уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/src/test уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/res уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/res/drawables уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/res/vectors уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/res/icons уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/savegames уже существует
+Папка по пути /Users/returtless/IdeaProjects/files1/Games/temp уже существует
+Файл /Users/returtless/IdeaProjects/files1/Games/temp/temp.txt уже существует
