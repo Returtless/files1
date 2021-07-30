@@ -8,7 +8,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 public class Main {
-    public static StringBuilder log = new StringBuilder();
+    public static StringBuilder LOG = new StringBuilder();
 
     public static final String FOLDER_PATH = "/Users/returtless/IdeaProjects/files1/Games/";
 
@@ -75,7 +75,7 @@ public class Main {
         createFile(tempFile);
         if (tempFile.canWrite()) {
             try (FileWriter fileWriter = new FileWriter(tempFile)) {
-                fileWriter.write(log.toString());
+                fileWriter.write(LOG.toString());
             } catch (IOException e) {
                 System.out.println("Ошибка записи в файл");
             }
@@ -115,27 +115,27 @@ public class Main {
 
     public static boolean createFile(File file) {
         if (file.exists()) {
-            return appendExistResultToLog(log, file.getAbsolutePath(), true);
+            return appendExistResultToLog(LOG, file.getAbsolutePath(), true);
         }
         try {
             if (file.createNewFile()) {
-                return appendResultToLog(log, file.getAbsolutePath(), true, true);
+                return appendResultToLog(LOG, file.getAbsolutePath(), true, true);
             } else {
-                return appendResultToLog(log, file.getAbsolutePath(), true, false);
+                return appendResultToLog(LOG, file.getAbsolutePath(), true, false);
             }
         } catch (IOException ex) {
-            return appendResultToLog(log, file.getAbsolutePath(), true, false);
+            return appendResultToLog(LOG, file.getAbsolutePath(), true, false);
         }
     }
 
     public static boolean createDirectory(File file) {
         if (file.exists()) {
-            return appendExistResultToLog(log, file.getAbsolutePath(), false);
+            return appendExistResultToLog(LOG, file.getAbsolutePath(), false);
         }
         if (file.mkdir()) {
-            return appendResultToLog(log, file.getAbsolutePath(), false, true);
+            return appendResultToLog(LOG, file.getAbsolutePath(), false, true);
         } else {
-            return appendResultToLog(log, file.getAbsolutePath(), false, false);
+            return appendResultToLog(LOG, file.getAbsolutePath(), false, false);
         }
     }
 
